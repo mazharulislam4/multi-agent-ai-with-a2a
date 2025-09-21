@@ -55,7 +55,7 @@ Based on the user's message, decide which agent to call:
 - If the message seems like a greeting, starting a conversation, or saying hello → call call_cisco_agent
 - If the message seems like saying goodbye, ending a conversation, or farewell → call call_service_catalog_agent
 
-If you're unsure, default to Cisco Intersight (greeter).
+If you're unsure, default to Cisco Intersight.
 
 Analyze this message and call the appropriate agent: {message}""".format(message=user_message)
         )
